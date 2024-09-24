@@ -1,0 +1,75 @@
+.about-us {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.about-us__img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-white);
+    position: relative;
+}
+
+
+.about-us__img div {
+    padding: 32px 64px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-us__img-sushi3 {
+    border-bottom: 8px solid var(--color-creamson);
+    background-image: url(../../assets/about_bg1.png);
+}
+
+.about-us__img-sushi2 {
+    background-image: url(../../assets/about_bg2.png);
+}
+
+.about-us__img-sushi3 img {
+    width: 225px;
+    height: 200px;
+}
+
+.about-us__img-sushi2 img {
+    width: 240px;
+    height: 160px;
+}
+
+.about-us__button {
+    position: absolute;
+    right: 0;
+    padding: 12px 32px;
+    min-height: 64px;
+    border-radius: 32px 0 0 32px;
+    background: var(--secondary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.about-us__button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-left: 32px;
+}
+
+.about-us__content {
+    flex: 1;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
